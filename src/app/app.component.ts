@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title: string = "Angular Maps Exercise";
+  lat: number = 43.343033;
+  lng: number = 17.807894;
 }
